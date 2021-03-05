@@ -59,16 +59,19 @@ body {
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  user-select: none;
 }
 
 .task.reminder {
   border-left: 5px solid rgb(3, 79, 243);
+  user-select: none;
 }
 
 .task h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  user-select: none;
 }
 
 .add-form {
